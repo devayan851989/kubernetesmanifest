@@ -21,7 +21,7 @@ node {
                         sh "git add ."
                         sh "git commit -m 'Done by Jenkins Job changemanifest: ${env.BUILD_NUMBER}'"
                         //sh "git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/${GIT_USERNAME}/kubernetesmanifest.git HEAD:main"
-                        sh "git push https://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@github.com/${GIT_USERNAME}/kubernetesmanifest.git HEAD:main"
+                        sh "git push https://sAukzpgIoK9kDPlAl7Vp3wmOMgpOir0AeK88@github.com/${GIT_USERNAME}/kubernetesmanifest.git HEAD:main"
       }
     }
   }
